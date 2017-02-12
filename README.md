@@ -12,15 +12,18 @@ List with available templates abbreviations:
 * `vuex` - Vue store module
 * `vuexi` - Vue store index file
 
-Components template is configured to work with SASS. Example Webpack configuration:
+#### More
 
-```
-module.exports = {
-	vue: {
-		loaders: {
-			js: 'buble-loader',
-			scss: 'vue-style-loader!css-loader!sass-loader'
-		}
-	}
-}
-```
+* It's highly reccomended to install [Vue.js](https://plugins.jetbrains.com/idea/plugin/8057-vue-js) IDEA plugin.
+* Components template is configured to work with SASS. Example Webpack configuration for SASS and Laravel:
+
+    ```
+    module.exports = {
+    	vue: {
+    		loaders: {
+    			js: 'buble-loader',
+    			scss: 'vue-style-loader!css-loader!sass-loader'
+    		}
+    	}
+    }
+    ```
