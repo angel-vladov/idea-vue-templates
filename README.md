@@ -1,6 +1,8 @@
 # idea-vue-templates
 Vuejs 2 live templates for IntelliJ IDEA and Webstorm. All the templates assume you're using a transplier for ECMAScript 2015.
 
+![Vue Component](http://avladov.com/blog/wp-content/uploads/2017/02/vue-template.png)
+
 ### Installation
 Download `settings.jar` and import it using **File->Import Settings**.
 
