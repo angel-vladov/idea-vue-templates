@@ -1,0 +1,91 @@
+<templateSet group="Vuejs">
+  <template name="vuec" value="&lt;template&gt;&#10;    &lt;div&gt;&lt;/div&gt;&#10;&lt;/template&gt;&#10;&#10;&lt;script&gt;&#10;&#9;export default {&#10;&#9;&#9;mounted() {&#10;&#10;&#9;&#9;},&#10;&#10;&#9;&#9;data() {&#10;&#9;&#9;&#9;return {&#10;                &#10;&#9;&#9;&#9;};&#10;&#9;&#9;},&#10;&#10;&#9;&#9;methods: {&#10;&#10;&#9;&#9;}&#10;&#9;}&#10;&lt;/script&gt;&#10;&#10;&lt;style lang=&quot;scss&quot; rel=&quot;stylesheet/scss&quot; scoped&gt;&#10;    //@import &quot;./resources/assets/sass/variables&quot;;&#10;&#10;&#10;&lt;/style&gt;" description="Vue Component" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ASPECTJ" value="false" />
+      <option name="PHP" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Twig" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="JSON" value="false" />
+      <option name="GAUGE" value="false" />
+      <option name="CSS" value="false" />
+      <option name="Bash" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="GROOVY" value="false" />
+      <option name="MXML" value="false" />
+      <option name="SQL" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="ColdFusion" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OGNL" value="false" />
+      <option name="XML" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="vued" value="export default {&#10;&#9;isLiteral: true,&#10;&#10;&#9;bind(el, binding) {&#10;&#9;&#9;&#10;&#9;}&#10;}" description="Vue Directive" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ASPECTJ" value="false" />
+      <option name="PHP" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Twig" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="JSON" value="false" />
+      <option name="GAUGE" value="false" />
+      <option name="CSS" value="false" />
+      <option name="Bash" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="GROOVY" value="false" />
+      <option name="MXML" value="false" />
+      <option name="SQL" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="ColdFusion" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OGNL" value="false" />
+      <option name="XML" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="vuexi" value="import Vue from 'vue'&#10;import Vuex from 'vuex'&#10;// Import additional stores here&#10;&#10;Vue.use(Vuex);&#10;&#10;export default new Vuex.Store({&#10;    modules: {&#10;&#10;    },&#10;    // strict: debug,&#10;    // plugins: debug ? [createLogger()] : []&#10;})" description="Vuex Index File" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="vuex" value="const state = {&#10;    val1: null,&#10;    val2 = null;&#10;}&#10;&#10;const mutations = {&#10;&#9;REMEMBER_ELEMENT(state, {val1, val2}) {&#10;        state.val1 = val1;&#10;        state.val2 = val2;&#10;    }&#10;}&#10;&#10;const actions = {&#10;    example({state, commit}, {arg1, arg2}) {&#10;        commit('EXAMPLE', {arg1, arg2});&#10;    }&#10;}&#10;&#10;export default {&#10;    namespaced: true,&#10;    state,&#10;&#9;mutations,&#10;    actions&#10;}" description="Vue Store" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ASPECTJ" value="false" />
+      <option name="PHP" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Twig" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="JSON" value="false" />
+      <option name="GAUGE" value="false" />
+      <option name="CSS" value="false" />
+      <option name="Bash" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="GROOVY" value="false" />
+      <option name="MXML" value="false" />
+      <option name="SQL" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="ColdFusion" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OGNL" value="false" />
+      <option name="XML" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+</templateSet>
