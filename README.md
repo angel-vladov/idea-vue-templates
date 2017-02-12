@@ -1,5 +1,5 @@
 # idea-vue-templates
-Vuejs 2 live templates for IntelliJ IDEA and Webstorm
+Vuejs 2 live templates for IntelliJ IDEA and Webstorm. All the templates assume you're using a transplier for ECMAScript 2015.
 
 ### Installation
 Download `settings.jar` and import it using **File->Import Settings**.
@@ -14,8 +14,8 @@ List with available templates abbreviations:
 
 #### More
 
-* It's highly reccomended to install [Vue.js](https://plugins.jetbrains.com/idea/plugin/8057-vue-js) IDEA plugin.
-* Components template is configured to work with SASS. Example Webpack configuration for SASS and Laravel:
+* It's highly recommended to install [Vue.js](https://plugins.jetbrains.com/idea/plugin/8057-vue-js) IDEA plugin.
+* Components template is configured to work with SASS. Example Webpack configuration for SASS and Laravel (_place this in webpack.config.js at root_):
 
     ```
     module.exports = {
