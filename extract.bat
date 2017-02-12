@@ -1,1 +1,3 @@
-jar xf settings.jar templates/Vuejs.xml
+mkdir tmp
+cd tmp
+jar xf ../settings.jar
