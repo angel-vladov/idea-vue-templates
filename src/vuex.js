@@ -4,7 +4,7 @@ const state = {
 }
 
 const mutations = {
-	REMEMBER_ELEMENT(state, {val1, val2}) {
+	EXAMPLE(state, {val1, val2}) {
         state.val1 = val1;
         state.val2 = val2;
     }
