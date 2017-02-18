@@ -1,6 +1,6 @@
 const state = {
     val1: null,
-    val2 = null
+    val2: null
 }
 
 const mutations = {
