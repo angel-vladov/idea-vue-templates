@@ -1,7 +1,7 @@
 export default {
-	isLiteral: true,
+	isLiteral: $isLiteral$,
 
 	bind(el, binding) {
-		
+		$END$
 	}
 }

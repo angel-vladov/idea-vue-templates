@@ -1,8 +1,10 @@
 <template>
-    <div></div>
+    <div>$END$</div>
 </template>
 
 <script>
+    //import { mapState, mapActions, mapMutations } from 'vuex';
+    
 	export default {
 		mounted() {
 

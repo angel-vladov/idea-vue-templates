@@ -1,6 +1,6 @@
 const state = {
     val1: null,
-    val2 = null;
+    val2 = null
 }
 
 const mutations = {
@@ -14,10 +14,11 @@ const actions = {
     example({state, commit}, {arg1, arg2}) {
         commit('EXAMPLE', {arg1, arg2});
     }
+    $END$
 }
 
 export default {
-    namespaced: true,
+    namespaced: $namespaced$,
     state,
 	mutations,
     actions
