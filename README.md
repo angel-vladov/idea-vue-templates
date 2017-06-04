@@ -16,7 +16,7 @@ List with available templates abbreviations:
 
 #### More
 
-* It's highly recommended to install [Vue.js](https://plugins.jetbrains.com/idea/plugin/8057-vue-js) IDEA plugin.
+* ~~It's highly recommended to install [Vue.js](https://plugins.jetbrains.com/idea/plugin/8057-vue-js) IDEA plugin.~~ _IDEA 17 comes with built in Vue.js support. Install the official plugin._
 * Components template is configured to work with SASS. Example Webpack configuration for SASS and Laravel (_place this in webpack.config.js at root_):
 
     ```
